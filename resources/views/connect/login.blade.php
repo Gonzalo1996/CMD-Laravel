@@ -1,5 +1,5 @@
 @extends('connect.master')
-@section('title', 'Login')
+@section('title', 'Login Actualizado')
 @section('content')
     <div class="box box_login shadow">
         {!! Form::open(['url' => '/login']) !!}
