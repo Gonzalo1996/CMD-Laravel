@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ConnectController;
+use App\Http\Controllers\DashBoardController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,4 +25,5 @@ Route::post('/login',[ConnectController::class , 'postLogin'])->name('login');
 Route::get('/register',[ConnectController::class , 'getRegister'])->name('register');
 Route::post('/register',[ConnectController::class , 'postRegister'])->name('register');
 Route::get('/logout',[ConnectController::class , 'getLogout'])->name('logout');
+
 
